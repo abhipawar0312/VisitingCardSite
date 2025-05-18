@@ -1,57 +1,49 @@
-<!DOCTYPE HTML>
-
-<html>
-	<head>
-		<title>Profile</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<script src="assets/js/html5shiv.js"></script>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/ie9.css" />
-		<link rel="stylesheet" href="assets/css/ie8.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
-
-		 
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Abhi Pawar</h1>
-							<p>Software Engineer</p>
-						</header>
-						
-						<hr />
-						
-						<footer>
-							<ul class="icons">
-								<li><a href="https://mobile.twitter.com/abhipawar0312" class="fa-twitter">Twitter</a></li>
-								<li><a href="https://www.instagram.com/abhishek.pawar.96k/" class="fa-instagram">Instagram</a></li>
-								<li><a href="https://www.facebook.com/abhi.pawar.9421450" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Abhi Pawar</li>
-							<li>Design <a href=""></a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/respond.min.js"></script>
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Abhi Pawar | Profile</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Abhi Pawar | Software Engineer | Social Links" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-loading">
+    <div id="wrapper">
+        <main id="main">
+            <header>
+                <span class="avatar">
+                    <img src="images/avatar.jpg" alt="Profile picture of Abhi Pawar" />
+                </span>
+                <h1>Abhi Pawar</h1>
+                <p>Software Engineer</p>
+            </header>
+            <hr />
+            <footer>
+                <ul class="icons">
+                    <li><a href="https://mobile.twitter.com/abhipawar0312" class="fa-twitter" aria-label="Twitter profile" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/abhishek.pawar.96k/" class="fa-instagram" aria-label="Instagram profile" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/abhi.pawar.9421450" class="fa-facebook" aria-label="Facebook profile" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                </ul>
+            </footer>
+        </main>
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; Abhi Pawar</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="assets/js/respond.min.js" defer></script>
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+    </script>
+</body>
+</html>
 			</script>
 
 	</body>
